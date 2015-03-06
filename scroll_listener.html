@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scroll Listener</title>
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<script src="scroll_listener.js"></script>
+</head>
+
+<style>
+	.pure-menu-extra {
+		font-size: 1.1rem;
+		font-weight: 400;
+		background: #003;
+	}
+	.pure-menu-extra a {
+		color: #eee;
+	}
+	.pure-menu-extra a:hover {
+		color: #333;
+	}
+	.empty {
+		height: 100vh;
+		background: #eee;
+	}
+</style>
+
+<body>
+	<div id="dynamic-header" class="pure-menu pure-menu-horizontal pure-menu-extra">
+		<a class="pure-menu-heading pure-menu-link" href="#">SCROLL.JS</a>
+		<ul class="pure-menu-list">
+			<li class="pure-menu-item"><a class="pure-menu-link" href="#">First Entry</a></li>
+			<li class="pure-menu-item"><a class="pure-menu-link" href="#">Second Entry</a></li>
+			<li class="pure-menu-item"><a class="pure-menu-link" href="#">Third Entry</a></li>
+		</ul>
+	</div>
+	<div id="dynamic-frame">
+		<h1>Scroll Listener</h1>
+		<div class="empty">
+			<p>Empty Body Element</p>
+		</div>
+	</div>
+</body>
+</html>
